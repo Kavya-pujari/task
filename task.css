@@ -1,0 +1,119 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    min-height: 100vh;
+    background-image: url("https://tse1.mm.bing.net/th?id=OIP.mPHbEtoCJhWrhHhke3gd1AHaEK&pid=Api&P=0&h=180");
+}
+.container{
+
+    
+    padding: 35px 40px;
+
+}
+#title{
+    background-color:lightgoldenrodyellow;
+    font-size: 400%;
+    font-family: monospace;
+    padding: 0px;
+    text-align: center;
+    color: black;
+}
+.btn #clear{
+    width: 40%;
+    padding: 12px;
+    border: 1px solid #f4efe8;
+    border-radius: 12px;
+    background-color: #f4efe8;
+    color:red;
+    text-transform: uppercase;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-left: 5.5cm;
+    margin-top: 30px;
+    
+    
+}
+
+#clear:hover, #convert:hover{
+    background-color: lightseagreen;
+    color: maroon;   
+}
+.convert_value input,.result input{
+    padding: 5px;
+    font-size: 200%;
+    font-family: monospace;    
+}
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 200%;
+    font-family: monospace; 
+    color:red; 
+    margin-left: 70px; 
+}
+select{
+    font-size: small;
+    border-radius: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 5px;
+    background-color:wheat;
+    margin: 2%;
+}
+.result{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    font-size: 200%;
+    font-family: monospace;
+    margin-left: 5.5cm;
+    color:chartreuse;
+    margin-top: 30px;
+} 
+#input_value{
+    width: 300px;
+  height: 40px; 
+  font-size: 120%;
+    font-family: monospace;
+    align-items: center;
+    margin-left: -0.7cm;
+}
+.convert_value{
+    font-size: 200%;
+    font-family: monospace;
+    margin: 1%;
+    align-items: center;
+    margin-left: 5.5cm;
+    color:yellow
+}
+option{
+    width: 500px;
+  height: 50px; 
+  font-size: 180%;
+    font-family: monospace;
+    margin-left: -1.5cm;
+}
+#clear
+{
+    font-size: 25px;
+    font-family: monospace;
+    width: 25%;
+    right: 10%;
+    font-weight:bolder;
+    text-align: center;
+ 
+}
+#output,#res{
+    width: 300px;
+    height: 40px;
+    margin-left: -0.7cm;
+}

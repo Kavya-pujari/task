@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="task3.css">
+    <title>Temperature converter</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="title">
+            <h4>TEMPERATURE CONVERTER</h4>
+        </div>
+
+        <div class="convert_value">
+            <label for=" "> Enter Temperature</label>
+            <br>
+            <input id="input_value" type="number" placeholder="Enter here" value="0">
+            <br>
+            
+
+        </div>
+        <div class="input">
+            <div>
+                <label for="">From</label>
+                <select name="input" id="from">
+                    <option value="celsius">Celsius</option>
+                    <option value="farenhite">Farenhite</option>
+                </select>
+            </div>
+            <div>
+                <label>To</label>
+                <select name="input" id="to">
+                    <option value="celsius">Celsius</option>
+                    <option value="farenhite">Farenhite</option>
+                </select>
+            </div>
+        </div>
+        <div class="result">
+            <div>
+                <label for="">Final Temperature</label>
+                <br>
+                <input id="output" type="text" name="" id="res" disabled>
+            </div>
+        </div>
+        <div class="btn">
+                <button id="clear">Clear</button>
+        </div>
+        
+    </div>
+</body>
+<script src="task3.js"></script>
+
+</html>
